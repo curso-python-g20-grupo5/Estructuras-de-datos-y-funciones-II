@@ -25,3 +25,8 @@ def filtrar(lista, promedio):
             lista_sobre_promedio.append(i)
     return lista_sobre_promedio
 
+#Listar las posiciones de todas las correas transportadoras que están sobre el promedio.
+#Para ello, primero se calculará el promedio de la lista "velocidad".
+#Luego, se filtran las velocidades que están sobre el promedio.
+#Finalmente, se imprimen las posiciones de los valores que están por sobre el promedio.
+print(filtrar(velocidad, promedio(velocidad)))
