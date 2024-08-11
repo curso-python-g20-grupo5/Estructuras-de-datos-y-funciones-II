@@ -1,5 +1,6 @@
 #Actividad 2
 """ Se busca medir mediante telemetría las velocidades de cada una de sus correas transportadoras """
+#Lista de velocidades
 velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 14, 14, 16, 10, 6, 23, 13, 25, 4, 19,
 14, 20, 18, 9, 18, 4, 18, 1, 3, 4, 2,
@@ -7,5 +8,11 @@ velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 10, 5, 23, 3, 5, 9, 5, 3, 12, 20, 5,
 11, 10, 18, 10, 14, 5, 23, 20, 23, 21]
 
-#se pide determinar una funcionalidad que calcule el promedio de una lista de velocidades
-promedio = sum(velocidad) / len(velocidad)
+
+#Se define una función llamada 'promedio' que toma la variable "velocidad" como un argumento
+def promedio(velocidad)
+     #Se pide determinar una funcionalidad que calcule el promedio de una lista de velocidades
+     prom_list_vel = sum(velocidad) / len(velocidad)
+     return prom_list_vel #devolver el valor del promedio calculado
+
+#Levantar una alerta de la posición de las correas transportadoras que están por sobre el promedio de la lista de velocidades
