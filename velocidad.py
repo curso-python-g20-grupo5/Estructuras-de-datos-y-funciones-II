@@ -9,18 +9,18 @@ velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 11, 10, 18, 10, 14, 5, 23, 20, 23, 21]
 
 #Se define una función llamada 'promedio' que toma la variable "velocidad" como un argumento
-def promedio(velocidad)
+def promedio(velocidad):
      #Se pide determinar una funcionalidad que calcule el promedio de una lista de velocidades
-     prom_list_vel = sum(velocidad) / len(velocidad)
-     return prom_list_vel #devolver el valor del promedio calculado
+    prom_list_vel = sum(velocidad) / len(velocidad)
+    return prom_list_vel #devolver el valor del promedio calculado
 
 #Definimos la fuinción "filtrar" que toma la la variable "velocidad" y el promedio calculado anteriormente como argumentos
 def filtrar(velocidad, prom_list_vel):
-     #Creamos una lista vacía para almacenar las velocidades que están sobre el promedio
-     lista_sobre_promedio = []
+    #Creamos una lista vacía para almacenar las velocidades que están sobre el promedio
+    lista_sobre_promedio = []
 
 #Creamos un Ciclo For iterable para cada elemento que compone la lista de velocidades. Si la condición es verdadera, es decir, si hay velocidades mayores al promedio, deberán integrarse a la lista vacía creada anteriormente
-for i in range(len(velocidad)):
-     if velocidad[i] > promedio:
-          lista_sobre_promedio.append(i)
-return lista_sobre_promedio 
+    for i in range(len(velocidad)):
+        if velocidad[i] > promedio:
+            lista_sobre_promedio.append(i)
+    return lista_sobre_promedio
