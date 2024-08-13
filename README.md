@@ -68,7 +68,8 @@ python velocidad.py
 
 Al ejecutarlo, se calculará el promedio de las velocidades y se listarán las posiciones de las correas que están por encima de este promedio:
 
-#Lista de velocidades
+Lista de velocidades
+
 velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 14, 14, 16, 10, 6, 23, 13, 25, 4, 19,
 14, 20, 18, 9, 18, 4, 18, 1, 3, 4, 2,
@@ -86,6 +87,30 @@ Esto indica que las correas en las posiciones listadas están operando por encim
 
 ## Actividad 3: Apoyo Matemático.
 
+En esta actividad se pide crear el archivo ong.py que apoya a una ONG en un programa educativo que enseña operaciones matemáticas avanzadas, como el cálculo del factorial y la productoria.
+
+Funcionalidad
+- Calcular Factorial: Calcula el factorial de un número entero no negativo.
+- Calcular Productoria: Calcula el producto de todos los números en una lista.
+- Control de Cálculos: Ejecuta cálculos de factoriales y productorias según los argumentos con nombre proporcionados.
+
+Uso
+Para ejecutar el script, utiliza el siguiente comando en la terminal:
+
+python ong.py
+
+
+Ejemplo de uso:
+
+calcular(fact_1=5, prod_1=[4, 6, 7, 4, 3], fact_2=6, fact_3=0, prod_2=[1, 2, 3])
+
+Salida:
+
+El factorial de 5 es 120
+La productoria de [4, 6, 7, 4, 3] es 2016
+El factorial de 6 es 720
+El factorial de 0 es 1
+La productoria de [1, 2, 3] es 6
 
 
 
