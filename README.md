@@ -111,7 +111,7 @@ python ong.py
 
 Ejemplo de uso:
 ```
-calcular(fact_1=5, prod_1=[4, 6, 7, 4, 3], fact_2=6, fact_3=0, prod_2=[1, 2, 3])
+calcular(fact_1=5, prod_1=[4, 6, 7, 4, 3], fact_2=6, fact_3=0, frod_1=[1, 2, 3])
 ```
 
 Salida:
@@ -120,7 +120,7 @@ El factorial de 5 es 120
 La productoria de [4, 6, 7, 4, 3] es 2016
 El factorial de 6 es 720
 El factorial de 0 es 1
-La productoria de [1, 2, 3] es 6
+Operación no reconocida: frod_1
 ```
 
 ## Autores y Autoras
