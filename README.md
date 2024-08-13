@@ -10,59 +10,60 @@ Este repositorio está compuesto por cuatro archivos:
 
 ## Actividad 1: Filtrado relevante.
 
-En esta actividad se nos pide filtrar productos de una tienda de tecnología según su precio, comparándolos con un umbral especificado. Se crea el archivo llamado ´´´filtro.py´´´ contiene una función que procesa un diccionario de productos y sus precios. La función permite mostrar:
+En esta actividad se nos pide filtrar productos de una tienda de tecnología según su precio, comparándolos con un umbral especificado. Se crea el archivo llamado 'filtro.py' contiene una función que procesa un diccionario de productos y sus precios. La función permite mostrar:
 
 - Un diccionario con los productos cuyos precios son mayores que un umbral dado.
 - Un diccionario con los productos cuyos precios son menores que un umbral, si se especifica.
 
-Funcionalidad
+**Funcionalidad**
 
 - Filtrar productos que cumplan con una condición de precio basada en un umbral.
 - Mostrar productos con precios estrictamente mayores al umbral por defecto.
 - Opción de mostrar productos con precios estrictamente menores al umbral si se especifica con el argumento "menor".
 - Gestión de entradas mediante sys.argv para recibir los argumentos desde la línea de comandos.
 
-Uso
+**Uso**
 
-Para ejecutar el script, utiliza el siguiente comando en la terminal:
+Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
 
 Productos con precios mayores al umbral:
-´´´
+```
 python filtro.py 30000
-´´´
+```
 Salida:
-´´´
+```
 Los productos mayores a umbral son: Notebook, Monitor, Escritorio, Tarjeta de Video
-´´´
+```
 
 Productos con precios menores al umbral:
-´´´
+```
 python filtro.py 30000 menor
-´´´
+```
 Salida:
-´´´
+```
 Los productos menores a umbral son: Teclado, Mouse
-´´´
+```
 
 Operación no válida:
-´´´
+```
 python filtro.py 30000 otro
-´´´
+```
 Salida:
-´´´
+```
 Lo sentimos, no es una operación válida
-´´´
+```
+
 ## Actividad 2: Alertas telemáticas.
 
 En esta actividad se nos pide analizar y monitorear la eficiencia energética de correas transportadoras mediante el cálculo y filtrado de sus velocidades. La aplicación identifica qué correas transportadoras están operando por encima del promedio de velocidad, lo que podría indicar un consumo excesivo de energía. Se crea el archivo velocidad.py para calcular el promedio de velocidades de una lista de correas transportadoras y para identificar cuáles de estas están operando por encima de dicho promedio.
 
-Funcionalidad
+**Funcionalidad**
 
 - Cálculo del Promedio: Calcula el promedio de una lista de velocidades proporcionadas.
 - Filtrado de Velocidades: Identifica las posiciones en la lista de aquellas correas transportadoras que tienen una velocidad superior al promedio calculado.
 
-Uso
-Para ejecutar el programa, utiliza el siguiente comando en la terminal:
+**Uso**
+Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
 
 python velocidad.py
 
@@ -89,13 +90,15 @@ Esto indica que las correas en las posiciones listadas están operando por encim
 
 En esta actividad se pide crear el archivo ong.py que apoya a una ONG en un programa educativo que enseña operaciones matemáticas avanzadas, como el cálculo del factorial y la productoria.
 
-Funcionalidad
+**Funcionalidad**
+
 - Calcular Factorial: Calcula el factorial de un número entero no negativo.
 - Calcular Productoria: Calcula el producto de todos los números en una lista.
 - Control de Cálculos: Ejecuta cálculos de factoriales y productorias según los argumentos con nombre proporcionados.
 
-Uso
-Para ejecutar el script, utiliza el siguiente comando en la terminal:
+**Uso**
+
+Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
 
 python ong.py
 
