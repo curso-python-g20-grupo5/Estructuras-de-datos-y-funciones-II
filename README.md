@@ -26,36 +26,36 @@ En esta actividad se nos pide filtrar productos de una tienda de tecnología seg
 
 Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
 
-Productos con precios mayores al umbral:
+**Productos con precios mayores al umbral:**
 ```
 python filtro.py 30000
 ```
-Salida:
+**Salida:**
 ```
 Los productos mayores a umbral son: Notebook, Monitor, Escritorio, Tarjeta de Video
 ```
 
-Productos con precios menores al umbral:
+**Productos con precios menores al umbral:**
 ```
 python filtro.py 30000 menor
 ```
-Salida:
+**Salida:**
 ```
 Los productos menores a umbral son: Teclado, Mouse
 ```
 
-Operación no válida:
+**Operación no válida:**
 ```
 python filtro.py 30000 otro
 ```
-Salida:
+**Salida:**
 ```
 Lo sentimos, no es una operación válida
 ```
 
 ## Actividad 2: Alertas telemáticas.
 
-En esta actividad se nos pide analizar y monitorear la eficiencia energética de correas transportadoras mediante el cálculo y filtrado de sus velocidades. La aplicación identifica qué correas transportadoras están operando por encima del promedio de velocidad, lo que podría indicar un consumo excesivo de energía. Se crea el archivo velocidad.py para calcular el promedio de velocidades de una lista de correas transportadoras y para identificar cuáles de estas están operando por encima de dicho promedio.
+En esta actividad se nos pide analizar y monitorear la eficiencia energética de correas transportadoras mediante el cálculo y filtrado de sus velocidades. La aplicación identifica qué correas transportadoras están operando por encima del promedio de velocidad, lo que podría indicar un consumo excesivo de energía. Se crea el archivo 'velocidad.py' para calcular el promedio de velocidades de una lista de correas transportadoras y para identificar cuáles de estas están operando por encima de dicho promedio.
 
 **Funcionalidad**
 
@@ -63,27 +63,33 @@ En esta actividad se nos pide analizar y monitorear la eficiencia energética de
 - Filtrado de Velocidades: Identifica las posiciones en la lista de aquellas correas transportadoras que tienen una velocidad superior al promedio calculado.
 
 **Uso**
-Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
 
+Para ejecutar el archivo, utiliza el siguiente comando en la terminal:
+```
 python velocidad.py
+```
 
 Al ejecutarlo, se calculará el promedio de las velocidades y se listarán las posiciones de las correas que están por encima de este promedio:
 
 Lista de velocidades
-
+```
 velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 14, 14, 16, 10, 6, 23, 13, 25, 4, 19,
 14, 20, 18, 9, 18, 4, 18, 1, 3, 4, 2,
 14, 23, 19, 23, 9, 18, 20, 22, 14, 1,
 10, 5, 23, 3, 5, 9, 5, 3, 12, 20, 5,
 11, 10, 18, 10, 14, 5, 23, 20, 23, 21]
+```
 
 Calcular el promedio y filtrar las velocidades
+```
 print(filtrar(velocidad, promedio(velocidad)))
+```
 
 Salida:
-
+```
 [0, 2, 3, 6, 13, 15, 17, 19, 29, 30, 31, 34, 36, 37, 40, 47, 49, 55, 56, 58, 59]
+```
 Esto indica que las correas en las posiciones listadas están operando por encima del promedio de velocidad.
 
 ## Actividad 3: Apoyo Matemático.
