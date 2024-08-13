@@ -14,7 +14,7 @@ def promedio(lista):
     promedio = sum(lista) / len(lista)
     return promedio #devolver el valor del promedio calculado
 
-#Definimos la fuinción "filtrar" que toma la variable "lista" y el promedio calculado anteriormente como argumentos
+#Definimos la función "filtrar" que toma la variable "lista" y el promedio calculado anteriormente como argumentos
 def filtrar(lista, promedio):
     #Creamos una lista vacía para almacenar las velocidades que están sobre el promedio
     lista_sobre_promedio = []
